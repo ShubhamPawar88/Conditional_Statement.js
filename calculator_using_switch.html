@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let x = parseInt(prompt("enter value of x ="));
+        let y = parseInt(prompt("enter value of y ="));
+        let choise = parseInt(prompt("enter choice like 1.Addition 2.Substaction 3.Multiplicatioin  4.div 5.cube ="));
+
+        switch(choise)
+        {
+          case 1:
+            document.write("<h1>Add Operation</h1>");
+            document.write("Add ="+(x+y));
+            break;
+         case 2:
+            document.write("<h1>Sub Operation</h1>");
+            document.write("Sub ="+(x-y));
+            break;
+         case 3:
+            document.write("<h1>Mul Operation</h1>");
+            document.write("Mul ="+(x*y));
+            break;
+         case 4:
+            document.write("<h1>Div Operation</h1>");
+            document.write("Div ="+(x/y));
+            break;
+        case 5:
+            document.write("<h1>Cube Operation</h1>");
+            document.write("Cube ="+(x*x*x));
+            break;     
+
+          default:
+            document.write("<h1>Invalid Operation</h1>");
+            break;
+            
+
+        }
+    </script>
+</body>
+</html>

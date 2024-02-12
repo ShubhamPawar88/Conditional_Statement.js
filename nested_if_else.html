@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ascii Value</h1>
+    <script>
+        //Write a JS program that finds whether given data is character,number,symbol
+
+          //ASCII => American Standard Code For Information Interchange
+         //char set => alphabet, number(0-9),symbols => unique no=> ascii code
+         //A=65,B=66,C=67......
+         //a=97,b=98......
+         //0=48,1=49......
+
+        let data='A';
+        if((data>='A' && data<='Z') || (data>='a' && data<='z' ))
+        {
+            document.write("given data is characters");
+            if(data=='a'|| data=='e'|| data=='i'|| data=='o'|| data=='u'|| data=='A'|| data=='E'|| data=='I'|| data=='O'|| data=='U')
+            {
+                document.write("<br> and it is vowel");
+            }
+            else{
+                document.write("<br> and it is consonent");
+            }
+        }
+        else if(data>='0' && data<='9')
+        {
+            document.write("given data is numbers");
+        }
+        else {
+            document.write("given data is symbols");
+        }
+    </script>
+</body>
+</html>
